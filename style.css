@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4c430;
+    padding: 30px;
+
+}
+
+.resume {
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+}
+
+.header {
+    background: #233350;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.profile {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image: url("shiva1.jpeg");
+    background-size: cover;
+    border: 5px solid white;
+}
+
+.header-text {
+    margin-left: 50 px;
+
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.header-text h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    padding: 30px 40px;
+
+}
+
+.right {
+    width: 70%;
+    padding: 30px 40px;
+
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #2f3b52;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #999;
+    margin-bottom: 15px;
+}
+
+.left p {
+    margin: 12px 0;
+    color: #333;
+
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.right h4 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #222;
+
+}
+
+.right p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.border {
+    color: black;
+    border-width: 4px;
+}
